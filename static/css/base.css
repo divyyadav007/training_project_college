@@ -1,0 +1,24 @@
+.navbar-brand {
+  letter-spacing: 3px;
+  color: #c24244 !important;
+}
+
+.navbar-brand:hover {
+  color: #c24244 !important;
+}
+
+/* Default navbar state */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #7f4722 !important;
+}
+
+/* When navbar is scrolled */
+.navbar-scrolled {
+  background-color: #ffede7 !important;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #7f4722 !important;
+}
