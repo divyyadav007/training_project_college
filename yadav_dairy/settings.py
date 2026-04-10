@@ -26,7 +26,9 @@ SECRET_KEY = "django-insecure--u)8u+!n*$la1xum14_47%*sk8!i&#l-$ylm)ia_d0in+8050i
 DEBUG = True
 ALLOWED_HOSTS = []
 
+# settings.py
 
+LOGIN_URL = 'login'
 # Application definition
 
 INSTALLED_APPS = [
