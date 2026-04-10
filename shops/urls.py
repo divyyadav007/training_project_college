@@ -5,7 +5,7 @@ from django.contrib import admin
 urlpatterns = [
     # Main/Home page (Jab koi sirf website.com khole)
     path('admin', admin.site.urls),
-    path('', views.home, name='home'),
+    path('home', views.home, name='home'),
     
     # Baaki pages
     path('product', views.product, name='product'),

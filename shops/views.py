@@ -63,8 +63,7 @@ def loginView(request):
             login(request, user)
             return redirect('home') # Use URL name
         else:
-            messages.error(request, "Invalid username or password")
-            return render(request, 'login.html')
+            return render(request, 'login.html',{"error" :"Invalid username or password"} )
 
     return render(request, 'login.html')
 
