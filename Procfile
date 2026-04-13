@@ -1,1 +1,1 @@
-web: gunicorn training_project_college.wsgi
+web: gunicorn yadav_dairy.wsgi
