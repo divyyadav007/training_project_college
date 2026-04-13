@@ -1,0 +1,1 @@
+web: gunicorn yadav_dairy.wsgi

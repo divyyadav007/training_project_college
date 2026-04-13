@@ -13,9 +13,9 @@ class Contact(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length = 100)
     description = models.TextField()
-    price = models.DecimalField(max_digit =  10 , decimal_places =2)
+    price = models.DecimalField(max_digits = 10, decimal_places =2)
     category = models.CharField(max_length = 50, choices =[('Milk', 'Milk'), ('Ghee', 'Ghee'), ('Curd', 'Curd')])
-    image = models.Imagefield(upload_to='products/')
+    image = models.ImageField(upload_to='products/')
     stock_quantity = models.IntegerField(default = 0)
 
     def __str__(self): 
