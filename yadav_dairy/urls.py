@@ -19,8 +19,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin', admin.site.urls),
-    path('', include('shops.urls')),   # 👈 THIS IS CRITICAL
+    
+    path('', include('shops.urls')),
+    path('admin/', admin.site.urls)   # 👈 THIS IS CRITICAL
 ]
 """
 URL configuration for yadav_dairy project.
